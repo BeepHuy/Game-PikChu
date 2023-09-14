@@ -1,0 +1,14 @@
+import { IsNotEmpty, Length } from "class-validator";
+
+
+export class User {
+
+    @IsNotEmpty()
+    @Length(3)  // templay đơ (Xác dịnh độ dài user name)
+
+    username: string;
+
+    constructor (username: string) {
+        this.username = username;
+    }
+}

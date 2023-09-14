@@ -1,0 +1,10 @@
+
+.gameItem{
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    box-shadow: 5px 10px 10px #92cbef;
+    height: 100px;
+}
+.unmatched{
+    background-color: red;
+}
